@@ -1,0 +1,49 @@
+header{
+  padding: 3.6rem;
+  background: #16151E;
+  color: #E1E1E6;
+  /* top: 0;
+  left: 0;
+  right: 0; */
+}
+
+header h1{
+  font-size: 2rem;
+  font-weight: 700;
+  flex: 1;
+}
+
+header div:nth-child(1){
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+header div:nth-child(2){
+  position: relative;
+}
+
+header input{
+  width: 100%;
+  padding: 1.3rem 2rem 1.3rem 5rem;
+  color: #E1E1E6;
+  background: #24243D;
+  outline: 0;
+  border: 0;
+  border-radius: .5rem;
+}
+
+header input::placeholder{
+  font-size: 1.4rem;
+}
+
+header input:focus{
+  outline: 1px solid #E1E1E6;
+}
+
+header .search{
+  position: absolute;
+  top: 1.1rem; 
+  left: 2rem;
+}
